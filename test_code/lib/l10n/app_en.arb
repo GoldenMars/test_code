@@ -1,0 +1,10 @@
+{   "personalAccount": "PERSONAL ACCOUNT",
+
+    "enterSimIdWidgetDescription": "Enter Code",
+    "enterSimIdWidgetTitle": "SIM ID",    
+    "enterSimIdScreenDescription": "Find out password *123#",
+
+    "enterPasswordWidgetDescription": "Resending the password",
+    "enterPasswordWidgetTitle": "PASSWORD", 
+    "enterPasswordScreenDescription": "Login SIM ID"
+}
