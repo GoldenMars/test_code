@@ -31,11 +31,6 @@ class MainApp extends StatelessWidget {
         Locale('en'),
       ],
       routerConfig: _appRouter.config(),
-      // home: Scaffold(
-      //   body: Center(
-      //     child: Text('Hello World!'),
-      //   ),
-      // ),
     );
   }
 }

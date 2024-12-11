@@ -5,6 +5,11 @@
     "enterSimIdScreenDescription": "Find out password *123#",
 
     "enterPasswordWidgetDescription": "Resending the password",
-    "enterPasswordWidgetTitle": "PASSWORD", 
-    "enterPasswordScreenDescription": "Login SIM ID"
+    "enterPasswordWidgetTitle": "PASSWORD",
+    "enterPasswordWidgetLabelText": "Enter password",
+    "enterPasswordScreenDescription": "Login SIM ID",
+
+    "personalAccountImage": "assets/images/personal_account.png",
+    "simOne": "assets/images/sim_one.png",
+    "simTwo": "assets/images/sim_two.png"
 }

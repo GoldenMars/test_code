@@ -4,5 +4,8 @@ import 'package:test_code/navigation/router.gr.dart';
 @AutoRouterConfig()
 class AppRouter extends RootStackRouter {
   @override
-  List<AutoRoute> get routes => [AutoRoute(page: EnterSimIdRoute.page)];
+  List<AutoRoute> get routes => [
+        AutoRoute(page: EnterSimIdRoute.page),
+        AutoRoute(page: EnterPasswordRoute.page)
+      ];
 }

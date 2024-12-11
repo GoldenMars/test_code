@@ -5,11 +5,11 @@ import 'package:test_code/core/UI/widgets/base_page.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:test_code/core/UI/widgets/custom_image.dart';
 import 'package:test_code/core/UI/widgets/custom_text.dart';
-import 'package:test_code/core/UI/widgets/pin_code.dart';
+import 'package:test_code/core/UI/widgets/password.dart';
 
 @RoutePage()
-class EnterSimIdScreen extends StatelessWidget {
-  const EnterSimIdScreen({super.key});
+class EnterPasswordScreen extends StatelessWidget {
+  const EnterPasswordScreen({super.key});
 
   static const int _topPadding = 60;
   static const int _bottomPadding = 20;
@@ -34,12 +34,12 @@ class EnterSimIdScreen extends StatelessWidget {
                   padding: EdgeInsets.only(
                       top: AppSizes.getHeight(_topPadding, context),
                       bottom: AppSizes.getHeight(_bottomPadding, context)),
-                  child: PinCode()),
+                  child: Password()),
             ],
           ),
         ),
         bottom: Center(
             child: BottomText(
-                AppLocalizations.of(context)!.enterSimIdScreenDescription)));
+                AppLocalizations.of(context)!.enterPasswordScreenDescription)));
   }
 }
