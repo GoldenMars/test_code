@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:test_code/core/UI/constants/colors.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:test_code/core/UI/constants/sizes.dart';
 import 'package:test_code/core/UI/widgets/custom_text.dart';
